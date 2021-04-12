@@ -1,0 +1,481 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.804; Version 2004; 64bit' Language: 'en' Physical Memory: 8005 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/sklsh/Unity Projects/Placeable AR character
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63830
+Successfully changed project path to: C:/Users/sklsh/Unity Projects/Placeable AR character
+C:/Users/sklsh/Unity Projects/Placeable AR character
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 85.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.6f1 (8a2143876886)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sklsh/Unity Projects/Placeable AR character/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   
+    VRAM:     4002 MB
+    Driver:   26.20.100.7323
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004483 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 89.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.542 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001663 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 70.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.892 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.1 MB.
+System memory in use after: 68.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1929.
+Total: 2.869200 ms (FindLiveObjects: 0.238100 ms CreateObjectMapping: 0.084900 ms MarkObjects: 2.423200 ms  DeleteObjects: 0.121300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/ARPlacement.cs
+  artifactKey: Guid(2fb2535209e895a4e93090b18938e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ARPlacement.cs using Guid(2fb2535209e895a4e93090b18938e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e6c993f35befc9c60e06d8cb230211') in 0.063720 seconds
+  Import took 0.068294 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000985 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.730 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1477 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.7 MB.
+System memory in use after: 67.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1933.
+Total: 4.071500 ms (FindLiveObjects: 0.316700 ms CreateObjectMapping: 0.195400 ms MarkObjects: 3.479800 ms  DeleteObjects: 0.077000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001146 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.229 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1477 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.7 MB.
+System memory in use after: 67.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1936.
+Total: 3.674300 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.102700 ms MarkObjects: 3.150500 ms  DeleteObjects: 0.119100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 651.242805 seconds.
+  path: Assets/Scripts/ARPlacement.cs
+  artifactKey: Guid(2fb2535209e895a4e93090b18938e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ARPlacement.cs using Guid(2fb2535209e895a4e93090b18938e599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c839e11fdade649b6cfec20fddb913cd') in 0.017748 seconds
+  Import took 0.025215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2860.845153 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47cf443bddc682ac2de11ea429897ce') in 0.045743 seconds
+  Import took 0.058520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.024891 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47cf443bddc682ac2de11ea429897ce') in 0.031528 seconds
+  Import took 0.041675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.240917 seconds.
+  path: Assets/XR
+  artifactKey: Guid(4c06fc913b824da48bba0dec4cf1721e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(4c06fc913b824da48bba0dec4cf1721e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4725844b01faa3b40ce15a2b14ec343c') in 0.032866 seconds
+  Import took 0.041935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.287886 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(7135ffda112600746995ab78edc3c6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(7135ffda112600746995ab78edc3c6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18fa4c58a220bd173ecfc39a3e7f441') in 0.032583 seconds
+  Import took 0.043569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1378.123325 seconds.
+  path: Assets/Mixamo
+  artifactKey: Guid(aa46933240874e54f90182e9cef65da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo using Guid(aa46933240874e54f90182e9cef65da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606ebe3172ac50a7e57f077a34ec507c') in 0.027188 seconds
+  Import took 0.039958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009343 seconds.
+  path: Assets/Mixamo
+  artifactKey: Guid(aa46933240874e54f90182e9cef65da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo using Guid(aa46933240874e54f90182e9cef65da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606ebe3172ac50a7e57f077a34ec507c') in 0.010851 seconds
+  Import took 0.019243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.443902 seconds.
+  path: Assets/Mixamo/akai_e_espiritu.fbx
+  artifactKey: Guid(fe66fcc5db876424080926d02e81ac2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/akai_e_espiritu.fbx using Guid(fe66fcc5db876424080926d02e81ac2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfa226d4360299641b3e90b73be1ffd') in 1.912695 seconds
+  Import took 1.920808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Mixamo/erika_archer_bow_arrow@Standing Draw Arrow.fbx
+  artifactKey: Guid(bdf08e5eb97e26c47a994a729c45a959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/erika_archer_bow_arrow@Standing Draw Arrow.fbx using Guid(bdf08e5eb97e26c47a994a729c45a959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b168208d277037668cb4c739947cef8') in 1.717591 seconds
+  Import took 1.726916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/Mixamo/erika_archer_bow_arrow.fbx
+  artifactKey: Guid(1f69bfec375469142b2739f119175b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/erika_archer_bow_arrow.fbx using Guid(1f69bfec375469142b2739f119175b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74dabc4e52e325030f0407d3cb68a13a') in 0.245137 seconds
+  Import took 0.255754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/Mixamo/erika_archer_bow_arrow@Standing Aim Idle 01.fbx
+  artifactKey: Guid(c395481c7c516f54cb884c316c489dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/erika_archer_bow_arrow@Standing Aim Idle 01.fbx using Guid(c395481c7c516f54cb884c316c489dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a9c74a35591d502780ac7676000aef') in 0.235436 seconds
+  Import took 0.244626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/Mixamo/erika_archer_bow_arrow@Standing Aim Idle 02 Looking.fbx
+  artifactKey: Guid(bb6222f16423eb841a245298b53330c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/erika_archer_bow_arrow@Standing Aim Idle 02 Looking.fbx using Guid(bb6222f16423eb841a245298b53330c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca422a8de32c9c4cd5000d4547b52ee') in 0.207109 seconds
+  Import took 0.217748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/Mixamo/erika_archer_bow_arrow@Standing Aim Recoil.fbx
+  artifactKey: Guid(5baf52da523e014439ad16b7a3423300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/erika_archer_bow_arrow@Standing Aim Recoil.fbx using Guid(5baf52da523e014439ad16b7a3423300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4edce2969a16e7ec274a9966d92a30') in 0.216822 seconds
+  Import took 0.226530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/Mixamo/erika_archer_bow_arrow@Standing Idle 03 Examine.fbx
+  artifactKey: Guid(26d1a9f10e9e81e49902f18d9fc31623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/erika_archer_bow_arrow@Standing Idle 03 Examine.fbx using Guid(26d1a9f10e9e81e49902f18d9fc31623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debe77ee45b17ad9bce699fd882d40a3') in 0.193841 seconds
+  Import took 0.204027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 482.031549 seconds.
+  path: Assets/Mixamo/animations
+  artifactKey: Guid(bb366c1db69821a42a35548de92bda59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/animations using Guid(bb366c1db69821a42a35548de92bda59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7399ae947f2d92c688a3d57356db905c') in 0.019244 seconds
+  Import took 0.026410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010133 seconds.
+  path: Assets/Mixamo/animations
+  artifactKey: Guid(bb366c1db69821a42a35548de92bda59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/animations using Guid(bb366c1db69821a42a35548de92bda59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7399ae947f2d92c688a3d57356db905c') in 0.007821 seconds
+  Import took 0.013938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.373458 seconds.
+  path: Assets/Mixamo/erika_archer_bow_arrow.fbx
+  artifactKey: Guid(1f69bfec375469142b2739f119175b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/erika_archer_bow_arrow.fbx using Guid(1f69bfec375469142b2739f119175b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d16b6e62c7d3a1f2664c8e085863de') in 0.165306 seconds
+  Import took 0.177582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.395172 seconds.
+  path: Assets/Mixamo/erika_archer_bow_arrow.fbx
+  artifactKey: Guid(1f69bfec375469142b2739f119175b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/erika_archer_bow_arrow.fbx using Guid(1f69bfec375469142b2739f119175b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1d4105e6370daabb37318b3353b0b5') in 0.213131 seconds
+  Import took 0.226520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.362027 seconds.
+  path: Assets/Mixamo/Extracted Textures/Arrow_DIFF.png
+  artifactKey: Guid(2bb82824ee60fbd4e8ab9936d2b7041c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Extracted Textures/Arrow_DIFF.png using Guid(2bb82824ee60fbd4e8ab9936d2b7041c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b05b46e5caaa349cc9f2cb90445e1b') in 0.181654 seconds
+  Import took 0.190181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Mixamo/Extracted Textures/Bow_DIFF.jpg
+  artifactKey: Guid(a1a31dc756f171948a9798b1cca93521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Extracted Textures/Bow_DIFF.jpg using Guid(a1a31dc756f171948a9798b1cca93521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b691170d8f85398bc9f502606d8b46') in 0.046985 seconds
+  Import took 0.054050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/Mixamo/Extracted Textures
+  artifactKey: Guid(05682e4969f96294e9e122990ef2ea0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Extracted Textures using Guid(05682e4969f96294e9e122990ef2ea0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e7700080f738305fcbe0911f9782f4') in 0.017321 seconds
+  Import took 0.023689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/Mixamo/Extracted Textures/FemaleFitA_StdNM.png
+  artifactKey: Guid(9cbd4aa10bd72fe43b31dd2ddef11a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Extracted Textures/FemaleFitA_StdNM.png using Guid(9cbd4aa10bd72fe43b31dd2ddef11a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56341b8af0f76cb6fa1a2aa8ba623a0') in 0.078383 seconds
+  Import took 0.085466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Mixamo/Extracted Textures/FemaleFitA_Body_diffuse.png
+  artifactKey: Guid(f4c5c8e91b1c19e45b32cf7cd9cd8838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Extracted Textures/FemaleFitA_Body_diffuse.png using Guid(f4c5c8e91b1c19e45b32cf7cd9cd8838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5351ac44f76ba65a2b4986957c856f30') in 0.053488 seconds
+  Import took 0.059902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Mixamo/Extracted Textures/Bow_NM.jpg
+  artifactKey: Guid(5758379a5f3dba14693eaf4570512129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Extracted Textures/Bow_NM.jpg using Guid(5758379a5f3dba14693eaf4570512129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111d23563a5bd480d5bf72208938bb04') in 0.055383 seconds
+  Import took 0.062585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Mixamo/Extracted Textures/Erika_Archer_Clothes_normal.png
+  artifactKey: Guid(8e77f12724187f04e9b25f201b066d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Extracted Textures/Erika_Archer_Clothes_normal.png using Guid(8e77f12724187f04e9b25f201b066d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcffca3ea5cd28ebc5c8990f09d661a') in 0.055801 seconds
+  Import took 0.062836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Mixamo/Extracted Textures/Erika_Archer_Clothes_diffuse.png
+  artifactKey: Guid(7359c63767ff9fa449a21980ab2b1923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Extracted Textures/Erika_Archer_Clothes_diffuse.png using Guid(7359c63767ff9fa449a21980ab2b1923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22188a5ea7a3bb7a3b71ab6708f37733') in 0.046093 seconds
+  Import took 0.052583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Mixamo/Extracted Textures/Arrow_NM.jpg
+  artifactKey: Guid(40c1e051c38ef1c468132c1fe578c2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Extracted Textures/Arrow_NM.jpg using Guid(40c1e051c38ef1c468132c1fe578c2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baad6ef08f8be295d03ceec1431d7b2a') in 0.059711 seconds
+  Import took 0.068294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1041.016552 seconds.
+  path: Assets/Mixamo/Textures
+  artifactKey: Guid(5d2662da1d17d6f408cd7e4e4adf1896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Textures using Guid(5d2662da1d17d6f408cd7e4e4adf1896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac0e34342b2f1ec944196640d0fc84b') in 0.020392 seconds
+  Import took 0.038634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006696 seconds.
+  path: Assets/Mixamo/Textures
+  artifactKey: Guid(5d2662da1d17d6f408cd7e4e4adf1896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/Textures using Guid(5d2662da1d17d6f408cd7e4e4adf1896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac0e34342b2f1ec944196640d0fc84b') in 0.009051 seconds
+  Import took 0.016058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.230970 seconds.
+  path: Assets/target.png
+  artifactKey: Guid(e6da7a2536e741241984379f8439b4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/target.png using Guid(e6da7a2536e741241984379f8439b4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184a4d82589feb7943d7b2eb08b0e97f') in 0.077365 seconds
+  Import took 0.087371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019483 seconds.
+  path: Assets/target.png
+  artifactKey: Guid(e6da7a2536e741241984379f8439b4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/target.png using Guid(e6da7a2536e741241984379f8439b4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184a4d82589feb7943d7b2eb08b0e97f') in 0.018478 seconds
+  Import took 0.023998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.234015 seconds.
+  path: Assets/Textures/target.png
+  artifactKey: Guid(e6da7a2536e741241984379f8439b4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/target.png using Guid(e6da7a2536e741241984379f8439b4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f3e7b35683a4ddbba4b7a7c16174f5') in 0.144602 seconds
+  Import took 0.161120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.210092 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(d08107539110afd4cac8f6da6ecd157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(d08107539110afd4cac8f6da6ecd157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd9ac3cd9ce0268c576f029f3953b79') in 0.023330 seconds
+  Import took 0.031815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002330 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(d08107539110afd4cac8f6da6ecd157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(d08107539110afd4cac8f6da6ecd157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd9ac3cd9ce0268c576f029f3953b79') in 0.007023 seconds
+  Import took 0.013315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.445415 seconds.
+  path: Assets/Indicator Material.mat
+  artifactKey: Guid(e91de3b125ef0b244986cb892abadfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Indicator Material.mat using Guid(e91de3b125ef0b244986cb892abadfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f70ebe13fed610cfe7f3c06ccc0d6b') in 0.155148 seconds
+  Import took 0.167061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.958994 seconds.
+  path: Assets/Materials/Indicator Material.mat
+  artifactKey: Guid(e91de3b125ef0b244986cb892abadfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Indicator Material.mat using Guid(e91de3b125ef0b244986cb892abadfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b4235129f1daae31675c5caff7b786') in 0.035853 seconds
+  Import took 0.047251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.658111 seconds.
+  path: Assets/Mixamo/animations/Standing Idle 03 Examine.anim
+  artifactKey: Guid(27aabdb9992534849b7b9032bf712d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/animations/Standing Idle 03 Examine.anim using Guid(27aabdb9992534849b7b9032bf712d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4dfb692185cb83d409e80d999797fd') in 0.096633 seconds
+  Import took 0.108817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.619032 seconds.
+  path: Assets/Mixamo/animations/Standing Draw Arrow.anim
+  artifactKey: Guid(9860cff54287c094db9c9a86cd62a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/animations/Standing Draw Arrow.anim using Guid(9860cff54287c094db9c9a86cd62a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3f7ed411911532ec284490b007b107') in 0.029723 seconds
+  Import took 0.038504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.379945 seconds.
+  path: Assets/Mixamo/animations/Standing Idle 03 Examine 1.anim
+  artifactKey: Guid(2951ba599e593dc4e94f9d58f2ad9469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/animations/Standing Idle 03 Examine 1.anim using Guid(2951ba599e593dc4e94f9d58f2ad9469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aee4523e834bcd80dc5af03ced0a907') in 0.055876 seconds
+  Import took 0.064763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.126777 seconds.
+  path: Assets/Mixamo/animations/Standing Aim Recoil.anim
+  artifactKey: Guid(b42f8242afe8659409d8fa06ca211dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/animations/Standing Aim Recoil.anim using Guid(b42f8242afe8659409d8fa06ca211dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8306e2c61d4359fa4c06b36d693524') in 0.028539 seconds
+  Import took 0.035846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002913 seconds.
+  path: Assets/Mixamo/animations/Standing Aim Recoil.anim
+  artifactKey: Guid(b42f8242afe8659409d8fa06ca211dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/animations/Standing Aim Recoil.anim using Guid(b42f8242afe8659409d8fa06ca211dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8306e2c61d4359fa4c06b36d693524') in 0.016310 seconds
+  Import took 0.022739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.956919 seconds.
+  path: Assets/Mixamo/animations/Standing Aim Idle 02 Looking.anim
+  artifactKey: Guid(bcf08adb42176b1428bd1fa9a9251881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/animations/Standing Aim Idle 02 Looking.anim using Guid(bcf08adb42176b1428bd1fa9a9251881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc6fcfe7290e2f3496660af50e15435') in 0.036004 seconds
+  Import took 0.045491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.226521 seconds.
+  path: Assets/Mixamo/animations/Standing Aim Idle 01.anim
+  artifactKey: Guid(51917cbd2285a0d42834fb1d7b4fbcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/animations/Standing Aim Idle 01.anim using Guid(51917cbd2285a0d42834fb1d7b4fbcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0c123f0a6f57966a0c193cb7deb482') in 0.053858 seconds
+  Import took 0.065114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001389 seconds.
+  path: Assets/Mixamo/animations/Standing Aim Idle 01.anim
+  artifactKey: Guid(51917cbd2285a0d42834fb1d7b4fbcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mixamo/animations/Standing Aim Idle 01.anim using Guid(51917cbd2285a0d42834fb1d7b4fbcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0c123f0a6f57966a0c193cb7deb482') in 0.012352 seconds
+  Import took 0.016913 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
