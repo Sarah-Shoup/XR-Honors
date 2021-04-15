@@ -28,6 +28,12 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -65,11 +71,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1576}
     - Class: 114
+      Script: {instanceID: 1954}
+    - Class: 114
+      Script: {instanceID: 2238}
+    - Class: 114
       Script: {instanceID: 2264}
     - Class: 114
       Script: {instanceID: 2326}
     - Class: 114
+      Script: {instanceID: 2338}
+    - Class: 114
       Script: {instanceID: 2384}
+    - Class: 114
+      Script: {instanceID: 2486}
+    - Class: 114
+      Script: {instanceID: 2662}
     - Class: 114
       Script: {instanceID: 2698}
     - Class: 114
@@ -86,9 +102,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4036}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -393,7 +417,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 3e4e4fbe42765fe496c9a3bee4b21e65
+      Hash: 3d37694142970550d6642bee54a1183b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: moveThroughDoor
