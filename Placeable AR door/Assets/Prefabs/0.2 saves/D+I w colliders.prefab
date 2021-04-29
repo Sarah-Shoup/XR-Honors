@@ -204,6 +204,7 @@ GameObject:
   - component: {fileID: 2872311539641133338}
   - component: {fileID: 6025389226610395265}
   - component: {fileID: 5554332758030667455}
+  - component: {fileID: 4845612795678192229}
   m_Layer: 0
   m_Name: DoorClear
   m_TagString: Untagged
@@ -294,7 +295,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2872311539641133337}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fcf448d1e8c085c4185c949c80206a38, type: 3}
   m_Name: 
@@ -304,6 +305,18 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 26b18347b74f8db4b9c98834ac91b813, type: 2}
   - {fileID: 2100000, guid: 059e81c49e906c044b3c0a3c8f91fefe, type: 2}
   - {fileID: 2100000, guid: 6ecb967f79a6f8d4b895a7a4d23a8c36, type: 2}
+--- !u!114 &4845612795678192229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872311539641133337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 911099d33525d084cb5db227ebdec0bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2872311539774671735
 GameObject:
   m_ObjectHideFlags: 0

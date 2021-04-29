@@ -31,30 +31,34 @@ public class moveThroughDoor : MonoBehaviour
         //Outside of other world
         if (transform.position.z > other.transform.position.z)
         {
-            myText.text = "outside of other world";
-            //Debug.Log("Outside of other world");
+            myText.text = "Outside of world A";
+            //Debug.Log("Outside of world A");
             foreach (var mat in materials)
             {
                 mat.SetInt("_StencilTest", (int)CompareFunction.Equal);
             }
-        }//Inside other world
+            //set other portal window active:
+            GameObject.Find("portal B window").SetActive(true);
+        }
+        //Inside other world
         else {
-            myText.text = "inside other world";
-            //Debug.Log("Inside other world");
+            myText.text = "Inside world A";
+            //Debug.Log("Inside world A");
             foreach(var mat in materials)
             {
                 mat.SetInt("_StencilTest", (int)CompareFunction.NotEqual);
             }
+            //set other portal window inactive:
+            GameObject.Find("portal B window").SetActive(false);
         }
     }
 
-/*  private void OnDestroy()
-    {
+  private void OnDestroy(){
         foreach(var mat in materials)
         {
             mat.SetInt("_StencilTest", (int)CompareFunction.NotEqual);
         }
-    }*/
+    }
 
     // Update is called once per frame
     void Update()
