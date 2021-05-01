@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - ManualCameraMovement
     - bMoveThrough
     - moveThroughDoor
+    - swapInterior
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARCore.Editor.dll:
@@ -103,6 +104,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3518}
     - Class: 114
       Script: {instanceID: 4048}
+    - Class: 114
+      Script: {instanceID: 36346}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -846,10 +849,10 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 8520891a97c44f1671c4b557ac20c9b0
+      Hash: c01c554a32bcc81875c4517a6f26f1ac
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: DoorManager
+    className: swapInterior
   platform: 13
   scenePathNames:
   - Assets/Scenes/Simple Working Portal.unity
