@@ -9,6 +9,8 @@ public class bMoveThrough : MonoBehaviour
 
     public Material[] materials;
     public Text myText;
+    public Material transparent;
+    public Material shaderB;
 
     void Start()
     {
@@ -21,6 +23,7 @@ public class bMoveThrough : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        GameObject windowA = GameObject.Find("portal A window");
         //compare "other" collider (what is hitting the doorWindow) with the main camera's collider
         Camera myCamera = Camera.main;
         if (myCamera.GetComponent<Collider>() != other)
@@ -38,8 +41,9 @@ public class bMoveThrough : MonoBehaviour
             {
                 mat.SetInt("_StencilTest", (int)CompareFunction.Equal);
             }
-            //set other portal window active:
-            GameObject.Find("portal A window").SetActive(true);
+            //set other portal window active/visible:
+                //windowA.SetActive(true);
+                windowA.GetComponent<Renderer>().material = transparent;
         }
         //Inside other world
         else
@@ -50,8 +54,9 @@ public class bMoveThrough : MonoBehaviour
             {
                 mat.SetInt("_StencilTest", (int)CompareFunction.NotEqual);
             }
-            //set other portal window inactive:
-            GameObject.Find("portal A window").SetActive(false);
+            //set other portal window inactive/invisible:
+                //windowA.SetActive(false);
+                windowA.GetComponent<Renderer>().material = shaderB;
         }
     }
 

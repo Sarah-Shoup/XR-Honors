@@ -70,39 +70,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1440}
+      Script: {instanceID: 1446}
     - Class: 114
-      Script: {instanceID: 1578}
+      Script: {instanceID: 1584}
     - Class: 114
-      Script: {instanceID: 2238}
+      Script: {instanceID: 2244}
     - Class: 114
-      Script: {instanceID: 2264}
+      Script: {instanceID: 2270}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2332}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2344}
     - Class: 114
-      Script: {instanceID: 2384}
+      Script: {instanceID: 2390}
     - Class: 114
-      Script: {instanceID: 2486}
+      Script: {instanceID: 2492}
     - Class: 114
-      Script: {instanceID: 2662}
+      Script: {instanceID: 2668}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 2704}
     - Class: 114
-      Script: {instanceID: 2906}
+      Script: {instanceID: 2912}
     - Class: 114
-      Script: {instanceID: 2910}
+      Script: {instanceID: 2916}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 2998}
     - Class: 114
-      Script: {instanceID: 3292}
+      Script: {instanceID: 3254}
     - Class: 114
-      Script: {instanceID: 3510}
+      Script: {instanceID: 3300}
     - Class: 114
-      Script: {instanceID: 4040}
+      Script: {instanceID: 3518}
     - Class: 114
-      Script: {instanceID: 23274}
+      Script: {instanceID: 4048}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -420,7 +420,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 3d37694142970550d6642bee54a1183b
+      Hash: 0b8e593393a3abc9cf9bc49f7aaf26b0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: moveThroughDoor
@@ -490,6 +490,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: dd32b8c0488b86beba83d4828242df02
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: bMoveThrough
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -840,10 +846,10 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 3d37694142970550d6642bee54a1183b
+      Hash: 8520891a97c44f1671c4b557ac20c9b0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: bMoveThrough
+    className: DoorManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/Simple Working Portal.unity
