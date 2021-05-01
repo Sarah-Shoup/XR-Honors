@@ -489,11 +489,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d5e679df93712443b87b828c5ac0c08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  windowB: {fileID: 7065682235653369108}
   materials:
   - {fileID: 2100000, guid: 40b5b56dd60249240902e29fd6bc98cd, type: 2}
   myText: {fileID: 4311987592182259349}
   transparent: {fileID: 2100000, guid: d46a95ea7b0784142bb4f9cbbcd435cc, type: 2}
   shaderA: {fileID: 2100000, guid: 65ec50f46c7253241b0bf715dbaaa6ce, type: 2}
+  outside: 1
 --- !u!1 &1337018291926682410
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,11 +926,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b27c132fcc375f4ea17f7066885d875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  windowA: {fileID: 1337018291625472155}
   materials:
   - {fileID: 2100000, guid: df4d79071c92f364d913b751dc88fe9d, type: 2}
   myText: {fileID: 2914613028711676101}
   transparent: {fileID: 2100000, guid: d46a95ea7b0784142bb4f9cbbcd435cc, type: 2}
   shaderB: {fileID: 2100000, guid: a6992d9433e78064dbde13bdfc46e3de, type: 2}
+  outside: 1
 --- !u!1 &7488850099025872478
 GameObject:
   m_ObjectHideFlags: 0

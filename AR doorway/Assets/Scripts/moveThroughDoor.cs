@@ -6,11 +6,12 @@ using UnityEngine.UI;
 
 public class moveThroughDoor : MonoBehaviour
 {
-
+    public GameObject windowB;
     public Material[] materials;
     public Text myText;
     public Material transparent;
     public Material shaderA;
+    public bool outside = true;
 
     void Start()
     {
@@ -21,18 +22,19 @@ public class moveThroughDoor : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        GameObject windowB = GameObject.Find("portal B window");
+        outside = !outside;
+        
         //compare "other" collider (what is hitting the doorWindow) with the main camera's collider
         Camera myCamera = Camera.main;
         if (myCamera.GetComponent<Collider>() != other){
             return;
         }
         //myText.text = "checkpoint reached";
-
+        
         //Outside of other world
-        if (transform.position.z > other.transform.position.z)
+        if (outside == true) //(transform.position.z > other.transform.position.z
         {
             myText.text = "Outside of world A";
             //Debug.Log("Outside of world A");
@@ -41,8 +43,8 @@ public class moveThroughDoor : MonoBehaviour
                 mat.SetInt("_StencilTest", (int)CompareFunction.Equal);
             }
             //set other portal window active/visible:
-                //windowB.SetActive(true);
-                windowB.GetComponent<Renderer>().material = transparent;
+                windowB.SetActive(true);
+                //windowB.GetComponent<Renderer>().material = transparent;
         }
         //Inside other world
         else {
@@ -53,8 +55,8 @@ public class moveThroughDoor : MonoBehaviour
                 mat.SetInt("_StencilTest", (int)CompareFunction.NotEqual);
             }
             //set other portal window inactive/invisible:
-                //windowB.SetActive(false);
-                windowB.GetComponent<Renderer>().material = shaderA;
+                windowB.SetActive(false);
+                //windowB.GetComponent<Renderer>().material = shaderA;
         }
     }
 

@@ -420,7 +420,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 0b8e593393a3abc9cf9bc49f7aaf26b0
+      Hash: 404543f091c1770d29c8c12d88df07e9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: moveThroughDoor
@@ -492,7 +492,7 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: dd32b8c0488b86beba83d4828242df02
+      Hash: 42447826e4286a17c812c8fc58b66f59
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: bMoveThrough
