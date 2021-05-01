@@ -213,7 +213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 259424fae62a27244a1599aac762f1be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arObjectToSpawn: {fileID: 1337018291926682410, guid: 9279507686774c74986d4678c54abc88, type: 3}
+  arObjectToSpawn: {fileID: 1337018291926682410, guid: b71d8a2fb5fa5274981b0f115e04feb3, type: 3}
   arObjectToSpawnOnBack: {fileID: 0}
   placementIndicator: {fileID: 1232945772}
 --- !u!4 &321658649
